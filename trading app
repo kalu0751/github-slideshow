@@ -1,0 +1,26 @@
+trading-app/
+│
+├─ frontend/                # Mobile app interface (React Native)
+│   ├─ App.js               # Entry point of the app
+│   ├─ screens/
+│   │   ├─ LoginScreen.js
+│   │   ├─ DashboardScreen.js
+│   │   └─ TradeScreen.js
+│   ├─ components/
+│   │   ├─ Chart.js
+│   │   └─ BalanceCard.js
+│   └─ assets/              # Images, icons, styles
+│
+├─ backend/                 # Node.js server for backend logic
+│   ├─ server.js            # Main server file
+│   ├─ routes/
+│   │   ├─ auth.js          # Registration/login APIs
+│   │   ├─ trades.js        # Buy/sell APIs (simulated)
+│   └─ data/
+│       └─ simulatedTrades.json  # Sample trade data
+│
+├─ database/                # Simple JSON DB for MVP
+│   └─ users.json           # Store user info temporarily
+│
+├─ README.md                # Notes and instructions
+└─ .gitignore               # Ignore node_modules and temp files
